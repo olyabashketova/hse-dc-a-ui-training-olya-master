@@ -1,0 +1,4 @@
+.O_TopBarWrapper {
+  position: fixed;
+  width: calc(100% - 300px);
+}

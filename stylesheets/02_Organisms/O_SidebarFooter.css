@@ -1,0 +1,11 @@
+.O_SidebarFooter {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  border: solid 1px black;
+
+
+}
