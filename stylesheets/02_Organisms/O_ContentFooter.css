@@ -3,7 +3,7 @@
   bottom: 0;
   width: calc(100% - 300px);
   height: 70px;
-  border: 1px solid black;
-  box-sizing: border-box;
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
   z-index: 10;
 }

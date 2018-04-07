@@ -1,7 +1,8 @@
- .O_Menu {
+.O_Menu {
   height: calc(100% - 80px - 70px);
   overflow: hidden;
 }
+
 
 .O_Menu .scrollable {
   position: relative;
@@ -10,5 +11,6 @@
   height: 100%;
   padding-right: 20px;
   overflow-y: scroll;
-
+  margin-left: 22px;
+ line-height: 47px;
 }

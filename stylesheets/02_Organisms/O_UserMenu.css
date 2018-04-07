@@ -1,0 +1,22 @@
+.O_UserMenu {
+  position: fixed;
+  width: 185px;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,.1);
+  top: 81px;
+  right: 50px;
+  width: 26px;
+  height: 26px;
+  margin-right: 50px;
+  background-image: url(../../images/user.svg);
+  background-size: cover;
+
+}
+
+.O_UserMenu {
+  padding: 20px;
+}
+
+.O_UserMenu {
+  border-top: 1px solid rgba(0,0,0,.1);
+}

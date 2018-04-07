@@ -1,5 +1,25 @@
- .O_Menubar {
- height: 80px;
- border-bottom: 1px solid black;
+.O_Menubar {
+  height: 80px;
+  display: flex;
+  border-bottom: 1px solid #e6e6e6;
+  justify-content: space-between;
+  align-items: center;
 
+}
+
+.O_Menubar .left a:hover {
+  border-bottom: 2px solid #3b87f4;
+}
+
+.O_Menubar .left a {
+  padding: 27px 35px;
+  margin-left: 80px;
+}
+
+.O_Menubar .right {
+  display: flex;
+}
+.O_Menubar .right>a {
+  padding-right: 72px;
+  padding-top: 19px;
 }

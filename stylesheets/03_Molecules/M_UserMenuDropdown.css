@@ -1,0 +1,15 @@
+.M_UserMenuDropdown {
+  position: absolute;
+  display: none;
+  top: 80px;
+  right: 25px;
+  font-family: var(--OpenSans);
+  border: 1px solid var(--gray);
+  background-color: white;
+}
+
+.O_UserMenu:hover .M_UserMenuDropdown{
+  display: block;
+
+
+}

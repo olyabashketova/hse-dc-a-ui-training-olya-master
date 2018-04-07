@@ -1,0 +1,34 @@
+.A_MenubarLink{
+  position: relative;
+  display: block;
+  line-height: 80px;
+  font-family: var(--Opensans);
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.A_MenubarLink:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--gray);
+
+
+}
+
+.A_MenubarLink.active
+.A_MenubarLink.active:hover {
+  color: var(--primary);
+  cursor: default;
+  border-color: transparent;
+
+
+}
+
+.A_MenubarLink.active::after{
+background-color: var(--primary);
+}
